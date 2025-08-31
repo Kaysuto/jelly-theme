@@ -1,0 +1,111 @@
+/* Fond général et typographie */
+body {
+    background-color: #1e1e2e; /* Mocha Base, proche du fond de status.playjelly.fr */
+    color: #cdd6f4; /* Mocha Text */
+    font-family: 'Inter', 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* Barre de navigation supérieure */
+.header {
+    background-color: #181825; /* Mocha Mantle */
+    border-bottom: 1px solid #313244; /* Mocha Surface0 */
+}
+
+/* Liens de la barre de navigation */
+.header .headerTabs a {
+    color: #cdd6f4; /* Mocha Text */
+    font-weight: 500;
+}
+
+.header .headerTabs a:hover {
+    color: #a6e3a1; /* Mocha Green, inspiré des pastilles vertes */
+}
+
+/* Boutons principaux */
+button {
+    background-color: #313244; /* Mocha Surface0 */
+    color: #cdd6f4; /* Mocha Text */
+    border: 1px solid #a6e3a1; /* Mocha Green */
+    border-radius: 6px;
+    font-family: 'Inter', 'Roboto', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a6e3a1; /* Mocha Green */
+    color: #1e1e2e; /* Mocha Base */
+}
+
+/* Cartes des médias (films, séries, etc.) */
+.cardBox {
+    background-color: #181825; /* Mocha Mantle */
+    border: 1px solid #313244; /* Mocha Surface0 */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.cardBox:hover {
+    background-color: #313244; /* Mocha Surface0 */
+    transform: scale(1.02);
+}
+
+/* Texte des titres des médias */
+.cardText {
+    color: #cdd6f4; /* Mocha Text */
+    font-weight: 500;
+}
+
+.cardText:hover {
+    color: #a6e3a1; /* Mocha Green */
+}
+
+/* Fond des modals (boîtes de dialogue) */
+.dialog {
+    background-color: #181825; /* Mocha Mantle */
+    color: #cdd6f4; /* Mocha Text */
+    border-radius: 8px;
+}
+
+/* Barre latérale */
+.drawer {
+    background-color: #181825; /* Mocha Mantle */
+}
+
+/* Liens dans la barre latérale */
+.drawer a {
+    color: #cdd6f4; /* Mocha Text */
+    font-weight: 500;
+}
+
+.drawer a:hover {
+    color: #a6e3a1; /* Mocha Green */
+}
+
+/* Titres pour une meilleure lisibilité */
+h1, h2, h3, h4, h5, h6 {
+    color: #f5e0dc; /* Mocha Rosewater */
+    font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+/* Barre de progression pour la lecture */
+.playedIndicator {
+    background-color: #a6e3a1; /* Mocha Green */
+}
+
+/* Style pour les éléments de liste (par exemple, épisodes) */
+.listItem {
+    background-color: #181825; /* Mocha Mantle */
+    border-bottom: 1px solid #313244; /* Mocha Surface0 */
+}
+
+.listItem:hover {
+    background-color: #313244; /* Mocha Surface0 */
+}
+
+/* Amélioration des contrastes pour les erreurs ou notifications */
+.error, .toast {
+    background-color: #f38ba8; /* Mocha Red */
+    color: #1e1e2e; /* Mocha Base */
+}
