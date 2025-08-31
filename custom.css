@@ -19,21 +19,21 @@ body {
 }
 
 .header .headerTabs a:hover {
-    color: #a6e3a1; /* Mocha Green, inspiré des pastilles vertes */
+    color: #5895F7; /* Bleu personnalisé */
 }
 
 /* Boutons principaux */
 button {
     background-color: #313244; /* Mocha Surface0 */
     color: #cdd6f4; /* Mocha Text */
-    border: 1px solid #a6e3a1; /* Mocha Green */
+    border: 1px solid #5895F7; /* Bleu personnalisé */
     border-radius: 6px;
     font-family: 'Inter', 'Roboto', sans-serif;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 button:hover {
-    background-color: #a6e3a1; /* Mocha Green */
+    background-color: #5895F7; /* Bleu personnalisé */
     color: #1e1e2e; /* Mocha Base */
 }
 
@@ -58,7 +58,7 @@ button:hover {
 }
 
 .cardText:hover {
-    color: #a6e3a1; /* Mocha Green */
+    color: #5895F7; /* Bleu personnalisé */
 }
 
 /* Fond des modals (boîtes de dialogue) */
@@ -80,7 +80,7 @@ button:hover {
 }
 
 .drawer a:hover {
-    color: #a6e3a1; /* Mocha Green */
+    color: #5895F7; /* Bleu personnalisé */
 }
 
 /* Titres pour une meilleure lisibilité */
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Barre de progression pour la lecture */
 .playedIndicator {
-    background-color: #a6e3a1; /* Mocha Green */
+    background-color: #5895F7; /* Bleu personnalisé */
 }
 
 /* Style pour les éléments de liste (par exemple, épisodes) */
